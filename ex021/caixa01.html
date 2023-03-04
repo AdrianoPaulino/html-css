@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{ /*box-level*/
+           
+            /*display: inline; podemos acionar o display para transformar em box-inline - tira as configurações de caixa top,botton por exemplo*/
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: blue;
+
+
+
+            /*
+            simplificar com shorthands (sempre na ordem de relogio top,right,botton,left)
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+            
+            padding: 10px; /*joga 10px para o quatro lados*/
+
+            /* Simplificar c shorthands
+            margin-top: 20px;
+            margin-right: 20px; auto=centraliza
+            margin-bottom: 40px;
+            margin-left: 20px; auto=centraliza
+            */
+
+            margin: 20px auto 40px auto;
+
+            /*
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: red;*/
+
+            outline: 10px dashed red ;
+
+        }
+        a{ /*box-inline*/
+
+            /*display: block;  podemos acionar o display para colocar numa caixa e configurar como box-level (acima)*/
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#"> links são exemplos de caixas inline-level.</a> Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

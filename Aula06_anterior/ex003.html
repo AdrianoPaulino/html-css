@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: hsl(240, 14%, 58%);
+            color:white;
+            font: 20pt arial;
+        }
+            h1 {
+                color: rgb(188, 188, 117);
+            }
+    </style>
+</head>
+<body>
+   <h1> Olá, el mundo </h1>
+   <p>Deus me dará vitoria</p>
+   <script>
+       //IMPORTANTE PARA FAZER OS CALCULOS DAS COMISSOES:
+       //var n1=Number.parseInt(window.prompt('Digite um numero:'))//variavel recebe numero inteiro transformado
+       //var n2=Number.parseInt(window.prompt('Digite outro numero:'))//variavel recebe outro numero inteiro transformado
+       //var n1=Number.parseFloat(window.prompt('Digite um numero:'))//variavel recebe numero com ponto (virgula) transformado
+       //var n2=Number.parseFloat(window.prompt('Digite outro numero:'))//variavel recebe outro numero inteiro transformado
+       var n1=Number(window.prompt('Digite um numero:'))//ATUALMENTE O SISTEMA ENTENDE QDO É INTEIRO OU VARIALVEL
+       var n2=Number(window.prompt(' Digite outro numero:'))//ATUALMENTE O SISTEMA ENTENDE QDO É INTEIRO OU VARIALVEL
+       var s=n1+n2
+               window.alert(`a soma entre ${n1} e ${n2} é igual a ${s}`)// o sinal de + somou os numeros transformados
+   </script>
+</body>
+</html>
