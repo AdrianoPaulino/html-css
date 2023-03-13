@@ -4,4 +4,4 @@
 
 I am learning to build sites.
 
-<a href="https://adrianopaulino.github.io/html-css/ex001/ex001.html">Executar o exercicío 001. </a>
+<a href="https://adrianopaulino.github.io/html-css/ex001/ex001.html">Executar o exercicío 001.</a>
